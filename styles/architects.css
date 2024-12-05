@@ -1,0 +1,98 @@
+/* wrok sens font */
+@import url(<style>
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+</style>);
+/* shared styles */
+*{
+    // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.work-sans-<uniquifier> {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.btn-primaty{
+    
+}
+}
+/* header styles */
+header{
+    background-color: rgba(252, 154, 25, 0.747);
+    padding: 50PX 240PX;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+nav > ul{
+    display: flex;
+}
+nav  li{
+    list-style: none;
+    margin-right: 30px ;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+/* banner styles */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+ .banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+
+ }
+.banner-description{
+    color: #727272;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
